@@ -1,0 +1,103 @@
+@import url("reset.css");
+
+body {
+  margin: 0;
+  background: #edf1f7;
+  color: #2b3a4f;
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  line-height: 1.4;
+}
+
+main {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 48px 30px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #1e4f8c;
+}
+
+.mise-a-jour {
+  margin: 4px 0 24px;
+  color: #6b7a90;
+  font-size: 0.95rem;
+}
+
+/* Carte contenant le tableau */
+.horaires {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden; /* arrondit les coins du tableau */
+  box-shadow: 0 6px 20px rgba(30, 79, 140, 0.15);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  padding: 18px 22px;
+  text-align: left;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-surface);
+  background: linear-gradient(90deg, var(--color-accent), var(--color-accent-end));
+}
+
+thead th {
+  padding: 14px 22px;
+  text-align: left;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #1e4f8c;
+  background: #dde6f2;
+}
+
+td {
+  padding: 16px 22px;
+  border-bottom: 1px solid #dde4ee;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tr.alterne {
+  background: #f3f6fa;
+}
+
+/* Pastilles d'état */
+.etat {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.etat-ok {
+  background: #dcf1e0;
+  color: #2d7a43;
+}
+
+.etat-retard {
+  background: #fdeec6;
+  color: #8a5a0a;
+}
+
+.etat-supprime {
+  background: #fbdada;
+  color: #a3243a;
+}
+
+.note {
+  margin-top: 16px;
+  font-size: 0.85rem;
+  color: #5b6b80;
+}
+

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Downloads/formation-css-starter"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "formation-html"
+	}
+}

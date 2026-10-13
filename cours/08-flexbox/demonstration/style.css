@@ -1,0 +1,102 @@
+@import url("reset.css");
+
+:root {
+  --color-primary: #b8122c;
+  --color-primary-light: #fde8eb;
+  --color-text: #2d2a26;
+  --color-text-muted: #66615b;
+  --color-bg: #fbf8f3;
+  --color-surface: #ffffff;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+.entete {
+  padding: 1rem 1.5rem;
+  background-color: var(--color-primary);
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-surface);
+}
+
+.menu a {
+  color: var(--color-surface);
+}
+
+main {
+  max-width: 60rem;
+  margin-inline: auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.entete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.produits {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.produit {
+  flex: 1 1 13rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  background-color: var(--color-surface);
+  border-radius: 0.75rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.prix {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.acheter {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  background-color: var(--color-primary-light);
+  border-radius: 999px;
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.pied {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: center;
+  padding: 1.5rem;
+  font-size: 0.875rem;
+}
+

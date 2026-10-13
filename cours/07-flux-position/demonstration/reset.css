@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+:root {
+  --color-primary: #1f7a6f;
+  --color-primary-light: #dff1ee;
+  --color-accent: #b54826;
+  --color-text: #264653;
+  --color-text-muted: #5b6b73;
+  --color-bg: #f7f5ef;
+  --color-surface: #ffffff;
+}
+
